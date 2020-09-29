@@ -12,4 +12,8 @@ import matplotlib.pyplot as plt
 a = np.arange(0, 2*np.pi, 0.001)
 plt.plot(a, np.cos(a))
 plt.plot(a, np.sin(a))
+
+plt.plot(a, np.tan(a))
+plt.ylim(-1,1)
+
 plt.show()
